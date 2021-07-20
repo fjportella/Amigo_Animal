@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UFT-8">
+
+<title>Amigo Animal</title>
+
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Luckiest+Guy&family=Oswald:wght@200&family=Patua+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div id="topo">
+<h1> AMIGO ANIMAL </h1>
+</div>
+
+<!--Menu-->
+<nav id="menu">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="reportagem.html">Reportagem</a></li>
+  <li><a href="sensopet.html">Senso Pet</a></li>
+  <li><a href="racas_comuns_brasil.html">Raças Comuns</a></li>
+  <li><a href="videos.html">Vídeos</a></li>
+  <li style="float:right"><a class="active" href="#about">Contato</a></li>
+  <li style="float:right"><a class="active" href="curriculo.html">Currículo</a></li>
+</ul>
+<!--Menu-->
+</nav>
+
+<h2> FALE CONOSCO </h2>
+
+<div id="contato">
+
+<form method="post" action="#">
+
+<label for="nome">Nome</label>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+<fieldset> 
+<legend>Sexo</legend>
+<input type="radio" id="masculino" name="sexo" value="M">
+<label for="masculino">Masculino</label>
+<input type="radio" id="feminino" name="sexo" value="F">
+<label for="feminino">Feminino</label>
+</fieldset>
+
+<label for="idade">Idade</label>
+<input type="text" id="idade" name="idade" placeholder="Digite sua idade">
+
+<label for="escola">Escolaridade</label>
+<Select it="escola" name="escola">
+<option value="selecione">Selecione uma Escolaridade</option>
+<option value="1º Grau">1º Grau</option>
+<option value="2º Grau">2º Grau</option>
+<option value="Superior">Superior</option>
+<option value="pos">Pós Graduação</option>
+<option value="doutor">Doutorado</option>
+</select>
+
+<label for="nome">E-mail</label>
+<input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+<label for="uf">Estado</label>
+<select id="uf" name="uf">
+<option value="selecione">Selecione um Estado</option>
+<optgroup label="Sudeste">
+<option value="Espírito Santo">Espírito Santo</option>
+<option value="Minas Gerais">Minas Gerais</option>
+<option value="São Paulo">São Paulo</option>
+<option value="Rio de Janeiro">Rio de Janeiro</option>
+</optgroup>	
+<optgroup label="Sul">
+<option value="Paraná">Paraná</option>
+<option value="Rio Grande do Sul">Rio Grande do Sul</option>
+<option value="Santa Catarina">Santa Catarina</option>
+</optgroup>	
+<optgroup label="Norte">
+<option value="Acre">Acre</option>
+<option value="Amapá">Amapá</option>
+<option value="Amazonas">Amazonas</option>
+<option value="Pará">Pará</option>
+<option value="Rondônia">Rondônia</option>
+<option value="Roraima">Roraima</option>
+<option value="Tocantins">Tocantins</option>
+</optgroup>	
+<optgroup label="Nordeste">
+<option value="Alagoas">Alagoas</option>
+<option value="Bahia">Bahia</option>
+<option value="Ceará">Ceará</option>
+<option value="Maranhão">Maranhão</option>
+<option value="Paraíba">Paraíba</option>
+<option value="Pernambuco">Pernambuco</option>
+<option value="Piauí">Piauí</option>
+<option value="Rio Grande do Norte">Rio Grande do Norte</option>
+<option value="Sergipe">Sergipe</option>
+</optgroup>		
+<optgroup label="Centro Oeste">
+<option value="Goiás">Goiás</option>
+<option value="Mato Grosso">Mato Grosso</option>
+<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+<option value="Distrito Federal">Distrito Federal</option>
+</optgroup>			  
+</select>
+
+<label for="cidade">Cidade</label>
+<input type="text" id="cidade" name="cidade" placeholder="Digite o nome de sua Cidade">
+
+<!---
+<fieldset>
+<legend>Como nos encontrou?</legend>
+<input type="checkbox" name="internet" value="Internet"/>Internet
+<input type="checkbox" name="amigos" value="Amigos"/>Amigos
+<input type="checkbox" name="revistas" value="Revistas"/>Revistas
+<input type="checkbox" name="jornais" value="Jornais"/>Jornais
+<input type="checkbox" name="panfletos" value="Panfletos"/>Panfletos
+<input type="checkbox" name="tv" value="TV"/>TV
+<input type="checkbox" name="outros" value="Outros"/>Outros
+</fieldset>
+--->
+
+<fieldset>
+<legend>Como nos encontrou?</legend>
+<input type="checkbox" name="internet" value="Internet"/>
+<label for="internet">Internet</label>
+<input type="checkbox" name="amigos" value="Amigos"/>
+<label for="amigos">Amigos</label>
+<input type="checkbox" name="revistas" value="Revistas"/>
+<label for="revistas">Revistas</label>
+<input type="checkbox" name="jornais" value="Jornais"/>
+<label for="jornais">Jornais</label>
+<input type="checkbox" name="panfletos" value="Panfletos"/>
+<label for="panfletos">Panfletos</label>
+<input type="checkbox" name="tv" value="TV"/>
+<label for="tv">TV</label>
+<input type="checkbox" name="outros" value="Outros"/>
+<label for="outros">Outros</label>
+</fieldset>
+
+<label for="comentario">Comentário</label>
+<textarea name="message" rows="10" cols="30" placeholder="Digite seu comentário"></textarea>
+
+<center>
+<input type ="submit" name="submit" value="Envia Formulário">
+<input type="reset" name="reset" value="Limpa Campos">
+</center>  
+
+</form>
+</div>
+
+
+
+
+
+
+</body>
+</html>

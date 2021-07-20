@@ -1,0 +1,277 @@
+
+
+#topo{
+   background-color: #538cc6;
+   top:0;   
+
+}
+
+
+
+body { background-color: #ffffff; 
+	text-align: justify;
+	
+}
+	
+	
+	
+h1 {
+	color: #F8F8FF; 
+	background-color: #538cc6;
+	font-family: 'luckiest guy', cursive;
+	font-size: 80px;
+	text-decoration: overline;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	padding: 20px 20px 20px 80px;
+	text-align: center;
+	margin:0;
+    text-shadow: 2px 2px 8px red;
+	
+	
+	
+}
+
+
+h2 {
+	font-family: 'Patua One', cursive;
+    font-size: 40px;
+    text-align: center;
+    	
+	
+	
+}
+
+
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	
+	
+}
+
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	
+	
+}
+
+
+
+p { 
+
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+
+
+}
+
+.paragrform { 
+
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   letter-spacing: 4px;
+   line-height: 2.5;
+
+
+}
+
+
+li { 
+
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+
+
+}
+
+
+/* Menu */
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;	
+
+
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+  background-color: #538cc6;
+  
+}
+
+.active {
+  background-color: #4CAF50;
+ 
+  
+}
+
+
+
+/* Formatação dos Links */
+	/* unvisited link */
+ol li a:link {
+  color: #538cc6;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+/* visited link */
+ol li a:visited {
+  color: #538cc6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* mouse over link */
+ol li a:hover {
+  color: #4CAF50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* selected link */
+ol li a:active {
+  color: #538cc6;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+/* Formatação dos Links */
+
+
+/* Opacidade e Hover nas imagens */
+
+.imgracas {
+   opacity: 1.0;
+   box-shadow: 10px 10px 5px grey;
+ 
+	
+}
+
+.imgracas:hover {
+  opacity: 0.5;	
+	
+}
+
+
+
+/* Formulário contato */
+
+#contato {
+width: 70%;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;	
+
+/*Gradiente*/
+background-color: SkyBlue; /*Para navegadores que não suportem gradient*/
+background-image: linear-gradient(SkyBlue, Silver);
+	
+
+}
+
+
+
+input[type=text], input[type=email], textarea, fieldset, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+
+input[type=radio], input[type=checkbox], select {
+  padding: 12px 20px; 
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+input[type=reset] {
+  width: 30%;
+  background-color: Tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #ff3333;
+}
+
+
+
+/* Float */
+
+#imagemL {
+  float: left;
+  margin-right: 30px;
+}
+
+#imagemR {
+  float: right;
+  margin-right: 30px;
+}
+
+.floatstop { clear:both; }
+
+
